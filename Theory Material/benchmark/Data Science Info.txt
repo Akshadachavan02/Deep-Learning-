@@ -1,0 +1,969 @@
+                                 Day 1(Demo-05-07-24)
+Data Science -Branch of Science deals  with Statistics, Computing, Processing, Visualization, Algorithms to find insights from  Data .
+Types of Analysis 
+  Who                        Grabbing Pattern         Taking Decision           Take Action
+1 Descriptive(DA)                   Human                    Human                 Human         
+2 Predictive(DS)                    Machine                 Machine                Human
+3 Prescriptive Analysis(AI)         Machine                 Machine                Machine
+
+Life Cycle of DS
+1 Business Understanding
+2 Data Mining
+3 Data Cleaning(ETL)
+4 Data Exploration(EDA)
+5 Future Engineering
+6 Predictive Modelling
+7 Data Visualization
+
+
+
+
+                                 Day 2(KT-08-07-24)
+                                 Day 3(09-07-24)
+Basic Statistics
+In order to make statement of Present 
+Data Types
+1 Qualitative
+Nominal
+ordinal
+Interval No Meaningful 0 1 to 10
+Ratio   Meaningful 0   Temp 
+2 Quantitative 
+Continuous -With Decimal
+Discrete-without Decimal
+
+                                 Day 4(10-07-24)
+Statistics
+1 Descriptive 
+1 Measure of Central Tendency
+Mean     Average 
+Median   Middle Value   
+Mode     Most occurring Values
+Range    Max -Min 
+2 Measure of Despersion
+
+Variance Square
+Standard Deviation Square Root  
+
+2 Inferential 
+Skewness
+Range     -1  +1  High Skewness -0.95  .99
+         -.5 +.5 Moderate Skewness   -4
+               0 No Skewness
+ Kurtosis  -3  +3   High 
+           -1   +1  Moderate 
+Visualization
+Column Chart  Less Distribution(Top /Bottom)
+Histogram  -Bins Range(Frequency)Large data Converted to Bin/Band-Skewness and Kurtosis
+Box Plot -Outliers
+Heatmap-Dark(More Value)-Light(Less Value)
+Pie Chart  Less Distribution (1 Text 1 Numerical)
+Scatter Chart More Distribution of Data
+Line Chart -1  Date  1 Number  
+                                 Day 5 (11-07-24)
+Relationship Between mean median
+Mean=Median     Normal Distribution
+Mean> Meadian +/Right Skewness
+Mean<Meadian  -/Left  Skewness
+
+K=0   Normal Distribution
+k>3   More Out layers
+k<3   Less Out Layers
+
+
+R   Python 
+R Programming
+Download R RStudio
+Plot(Region,Salary)
+EDA
+Data Types
+1 Numeric   1000, 11.5
+2 Integer  (no decimal)
+3 Complex X+iY
+4 Character   Name City Pr
+5 Logical    TRUE FALSE  
+IMP
+--Case Sensitive 
+-- Operator    Variable = Value
+-- Comments     #
+=  <- Assignment Operator 
+--    Extension    .r
+--  Summary()
+-- Class(Name)   To see datatype
+
+Name = "Dipti"
+Salary =10000
+DOB='20-02-2024'
+Class(Name)   
+
+data()-  Inbuilt Data
+data(Sales)
+Data Structure 
+1 Homogeneous
+  Same Data type
+2 Heterogeneous
+Mutable       Changes 
+Immutable  no changes
+
+
+plot() function in R is used to create the line graph.
+
+Syntax: plot(v, type, col, xlab, ylab)
+
+Parameters: 
+
+v: This parameter is a contains only the numeric values
+type: This parameter has the following value: 
+“p” : This value is used to draw only the points.
+“l” : This value is used to draw only the lines.
+“o”: This value is used to draw both points and lines
+xlab: This parameter is the label for x axis in the chart.
+ylab: This parameter is the label for y axis in the chart.
+main: This parameter main is the title of the chart.
+col: This parameter is used to give colors to both the points and lines.
+                                Day 6(12-07-24)
+Visualization in R-Ref R File 
+
+                                   Day 7(15-07-24)
+Discripive Staticstics in R  Refer R file
+                                    Day 8(16-07-24)
+Basics of Python Programming
+Download Link
+https://www.anaconda.com/download/
+
+Launch Jupyter notebook
+Format 
+.jpynb
+.py
+Anaconda -Repository
+IDE(Integrated Database Environment)
+    Jupyter Notebook       Google Colab 
+1   Installation                  No Installation
+2   Consume Memory                 No Memory
+3   Offline                        Internet Connection required
+4   save in System                Not Saved in System 
+                               Day9(17-07-24)
+Data structure
+List 
+Tuple
+Set
+Dictionary
+Indexing and Slicing 
+                              Day10(18-07-24)
+Data cleaning Function
+upper 
+lower
+capitalize
+strip
+reverse
+len
+
+Operator
+== compare
+!= not equal to
+>  greater than
+<  less than
+%  mod
+/  quotient
+
+
+Conditional Statements & Loop
+if
+if else
+elif
+Loops
+while 
+For
+
+
+                              #19-07-24(Day11)
+Libraries in Python
+Set of Function
+1 Pandas -For data manipulations(Read write,Shape ,Info,datatypes,index,Group by,Sorting ,Column..)
+2 NumPy  -For  numeric Operation(Max,Min,Total,Varience,Standard deviation)
+3 Matplotlib -data visualization
+4 Seaborn visualization
+5 Sklearn -Machine learning Models
+6 Tenserflow-image and Video processing
+7 Keras image and Video processing
+8Picle -Sterilization and Sterilization of Data
+
+!pip install Pandas -only first time
+Import pandas as pd
+Data_Name=pd.read_csv(r'')-any location
+Data_Name=pd.read_csv('Dataname.csv')-Jupiter notebook home page
+Data_Name-All Column and Rows
+Data_Name.head()-top 5
+Data_Name.tail()-bottom 5
+type(data_Name) -Check Data Structure
+Data_Name.shape  -Shape of data-No of rows and Column(Rows ,Column)
+Data_Name.info()-Data types -summary
+Data_Name.iloc[Row,Column]-See specific Rows and Column
+
+Pandas Data type 
+int32/int64  int
+float32/float64 Float 
+object     Text/String
+datetime   Date and Time 
+
+                               #22-07-24(Day12)
+Constant -Value does not Change Ex PH ,Pie =3.14
+Variable -Change 
+Events - 2  outcomes  Yes No
+Random Variable 
+Continuous Random Variable  Temp Height Speed Volume Weight 
+Discrete  Random Variable   Coin Age Job Weather Disc  Match Profit 
+Z Score =n-Mean/SD( all values in same Scale )
+
+               CRV                        DRV
+Probability density Function        Probability Mass Function
+Normal Distribution                 Binomial Distribution
+Continuous                            Discrete
+Table                                    Graph
+Normal Distribution
+1  Bell Shape Curve 
+2 Mean=median=mode
+3 Symmetrical
+4 Gaussian Distribution
+5 Area under Curve 1 
+6 Empirical Rule/36 rule
+7 Gain+Loss=1
+
+!pip install Scipy 
+Import Scipy.stats as Stats
+                                #24-07-24(Day13)
+Random Variable and Probability 
+Script
+Refer  Visualization file
+                                #25-07-24(Day14)
+
+Hypothesis Testing-Assumption(Yes No)
+Define Hypothesis
+1 Null H0  Classes=40
+ Alternate Ha   Classes<>40
+2 Types Of test(T Z)
+Z -SD of Population is Given
+T -SD of Population is unknown
+3 One tail Two Tails
+  > < >= <=      1 Tail
+  =  Not=        2 Tail
+4 Calculate alpha 1 Tail .05 2  tails 0.025
+5 Calculate probability  
+6 Conclusion
+  P Value < alpha (0.05)
+Reject null Hypothesis
+  P value >0.05 
+Fail  to reject null Hypothesis
+
+Q  Average weight of people in City A is 72 with SD is 4kg
+   to test this sample of 36 people has been taken and there 
+   average weight came out to be 74kg,Test for 95 % Confidence Interval
+
+                                   #26-07-24(Day15)
+Hypothesis Testing
+
+Define Hypothesis
+1 H0 =72 Ha not=72
+2 Z test
+3 2 Tail
+4 alpha=0.05
+5 p value  1.96/2  0.98
+6 Average weight of People in city A is 72 because P value is greater than alpha
+
+                     Statistical Test
+1 sample
+a-T test   b- Proportion test
+2 Sample
+a-T test   b- Proportion test
+3 Anova
+Sample T1 T2 T3 T4....
+4 Chi Test 
+5 Regression
+1 Sample t test
+
+from scipy.stats import ttest_1samp
+#tscore,pvalue =ttest_1samp(data, population mean)
+
+2 sample t test
+from scipy.stats import ttest_ind  (2 sample)
+
+## Paired t test(dependent)
+
+from scipy.stats import ttest_rel
+
+                                       #29-07-24(Day16)
+Data Visualization
+Matplot lib -
+Seaborn 
+!pip install seaborn
+import seaborn as sn
+Dataset : mtcars data 
+
+1 Univariant -
+Continuous  -
+Discrete 
+
+2 bivariant 
+
+3 Multivariant  
+
+
+                                     30-07-24(Day17)
+
+EDA (Exploratory data Analysis)
+Outlies
+Box plot
+Scatter Chart
+Histogram
+Normal Distribution
+Skewness
+Null Value 
+Object          NaN
+Int64/Float64   Na
+Date            NaT
+
+# 3RRR-Null Values
+Replace (Less Data)
+Numerical  mean Median (Capping)
+Text    mode 
+Remove (More Data-remove Row Remore Coumn
+Retain  keep outliers
+
+Transformation(0,1)
+Dummy Variable 
+One hot encoder
+-1..........0.................+1
+High       Low               High
+
+Graded interpretation : 
+r 0.1-0.3 = weak
+0.4-0.7 = moderate
+0.8-1.0=strong correlation
+
+
+                      #31-07-24(Day-18)
+EDA Programming 
+Ref
+ Python File
+                      #01-08-24(Day-19)
+1-5%      Drop Row
+6-40%     Replace (Mean-no outliers ,Median-outliers,Mode-Object
+50%       Drop Column
+
+                      #02-08-24(Day20)
+Transformation
+EDA Steps
+1 Import Libraries
+2 Load Data
+3 Data Understanding 
+  -Duplicate
+  -Shape 
+  -Missing Value
+  -Datatype
+  -Describe
+  -Outliers
+4 Descriptive Statistics 
+5 Visualization
+  Boxplot,Histogarm,Scatter Chart-Outliers
+6 Treat outliers and Null Values
+7 Convert Object to int
+  get_dummies 
+8 Correlation  Heat map
+9 Normalization [0 ,1]
+  Standization Mean=0 Std=1 
+                                 # 05-08-24(21)
+Machine Learning (Future)
+In  order to make the statement about Future
+Model -Set of Algorithoms
+                              Machine Learning
+     Supervised                                                                     Unsupervised  
+    (Specified O/P)                                                               (No specified O/P)
+1 Regression                                            2 Classification
+(Y is Continuous)                                         (Y is Discrete)
+Linear Regression                                         Logistic Regression
+a Simple Linear Regression(SLR) Y=mX+c Straight Line  a Simple Logistic Regression Y=BX+E
+b Multi linear Regression(MLR) Y=m1X1+m2X2.......+c   b Multi Logistic Regression  Y=B1X1+B2X2.....+E
+
+
+ Assumption(Parametric Model )
+1 The data need to be Linear Proportion 
+  x directly Y  Proportion 
+  X inversely Y  Proportion 
+(Scatter Chart, Correlation)
+2  Homo Scarcity (Similar Variance)
+3  NO Multicollinearity(Same Column information Should not be there) drop dependent Column
+Ex  Weight in kg Weight in gm  -Drop any one Column
+4 No auto regress (O/p should  not change with time)
+5 Zero residual Mean
+6 Continuous 1 I/P 1 O/P
+Training Data
+
+Known parameter       X Y 
+Unknown Parameter     M C 
+Y=mx+C
+
+Data Prediction 
+
+Known parameter      m c x
+Unknown Parameter     Y 
+Y=mx+C
+
+ Assumption-(Parametric Model )-Supervised Machine Learning -Regression  ,Classification
+
+ No Assumption-( Non Parametric Model )-UnSupervised Machine Learning -Clustering
+
+                             #06-08-24(Day22)
+
+What is Multiple Linear Regression in Machine Learning? 
+It is a statistical technique to forecast a single result depending on several variables.
+
+
+Formula and Calculation of Multiple Linear Regression 
+
+
+
+
+Assumptions of Multiple Linear Regression
+
+Multiple linear regression relies on several key assumptions to produce valid and reliable results:
+
+1. Linearity
+
+The relationship between the dependent variable and each independent variable is linear. This means the change in the dependent variable is proportional to the change in each independent variable.
+
+2. Independence(I/P)
+
+The observations are independent of each other. This assumption ensures that the value of the dependent variable for one observation is not influenced by the value for another.
+
+3. Homoscedasticity
+
+The variance of the residuals (errors) is constant across all levels of the independent variables. This means that the spread of residuals should be roughly the same for all predicted values.
+
+4. Normality of Residuals
+
+The residuals (differences between observed and predicted values) are typically distributed. This is particularly important for hypothesis testing and constructing confidence intervals.
+
+5. No Multicollinearity
+
+The independent variables are not too highly correlated. However, high multicollinearity can make it difficult to determine the individual effect of each independent variable.
+
+6. No Autocorrelation
+
+There is no correlation between the residuals. Autocorrelation can indicate that the model is missing some crucial predictors.
+
+7. Fixed Independent Variables
+
+The values of the independent variables are fixed in repeated samples, meaning they are measured without error.
+
+                           #09-08-24
+Logistic Regression Model
+
+
+
+How to Evaluate Logistic Regression Model?
+
+We can evaluate the logistic regression model using the following metrics:
+
+Accuracy: Accuracy provides the proportion of correctly classified instances.
+𝐴𝑐𝑐𝑢𝑟𝑎𝑐𝑦=𝑇𝑟𝑢𝑒𝑃𝑜𝑠𝑖𝑡𝑖𝑣𝑒𝑠+𝑇𝑟𝑢𝑒𝑁𝑒𝑔𝑎𝑡𝑖𝑣𝑒𝑠𝑇𝑜𝑡𝑎𝑙Accuracy
+TotalTruePositives+TrueNegatives​
+TP/TP+TN
+FP/FP+FN
+Precision: Precision focuses on the accuracy of positive predictions.
+𝑃𝑟𝑒𝑐𝑖𝑠𝑖𝑜𝑛=𝑇𝑟𝑢𝑒𝑃𝑜𝑠𝑖𝑡𝑖𝑣𝑒𝑠𝑇𝑟𝑢𝑒𝑃𝑜𝑠𝑖𝑡𝑖𝑣𝑒𝑠+𝐹𝑎𝑙𝑠𝑒𝑃𝑜𝑠𝑖𝑡𝑖𝑣𝑒𝑠Precision/TruePositives+FalsePositivesTruePositives​
+          Precision TP=TP/TP+FP
+          Precision FP=FP/FP+TP
+
+Recall (Sensitivity or True Positive Rate):Recallmeasures the proportion of correctly predicted positive instances among all actual positive instances.
+𝑅𝑒𝑐𝑎𝑙𝑙=𝑇𝑟𝑢𝑒𝑃𝑜𝑠𝑖𝑡𝑖𝑣𝑒𝑠𝑇𝑟𝑢𝑒𝑃𝑜𝑠𝑖𝑡𝑖𝑣𝑒𝑠+𝐹𝑎𝑙𝑠𝑒𝑁𝑒𝑔𝑎𝑡𝑖𝑣𝑒𝑠
+Recall=TruePositives+FalseNegativesTruePositives​
+
+F1 Score:F1 scoreis the harmonic mean of precision and recall.
+𝐹1𝑆𝑐𝑜𝑟𝑒=2∗𝑃𝑟𝑒𝑐𝑖𝑠𝑖𝑜𝑛∗𝑅𝑒𝑐𝑎𝑙𝑙𝑃𝑟𝑒𝑐𝑖𝑠𝑖𝑜𝑛+𝑅𝑒𝑐𝑎𝑙𝑙F1Score/2∗Precision+RecallPrecision∗Recall​
+
+                   #12-08-24
+Linear Regression &Logistic Regression
+1 Linear regression is used to predict the continuous dependent variable using a given set of independent variables.
+Logistic regression is used to predict the categorical dependent variable using a given set of independent variables.
+2 Linear regression is used for solving regression problem.
+It is used for solving classification problems.
+3 In this we predict the value of continuous variables
+In this we predict values of categorical variables
+4 In this we find best fit line.
+In this we find S-Curve.
+5 Least square estimation method is used for estimation of accuracy. Pvalue
+Maximum likelihood estimation method is used for Estimation of accuracy.Accuracy_Score
+6 The output must be continuous value, such as price, age, etc.
+Output must be categorical value such as 0 or 1, Yes or no, etc.
+7 It required linear relationship between dependent and independent variables.
+It not required linear relationship.
+8 There may be collinearity between the independent variables.
+There should be little to no collinearity between independent variables.
+
+Clustering (Unspervised Machine Learning)
+1 Hierarchical 
+2 K Mean
+3 DBSCAN
+                      #13-8-24
+Hierarchical Clustering  
+-small Data,find the Number of Clusters
+-Agglomerative Clustering  
+-dendrogram
+Distance between Clusters
+1 Single Linkage(Nearest Neighbour)
+2 Complete Linkage(Farthest Neighbour)
+3 Average Linkage(avearage of all the distance between members of both the cluster)
+4 Centroid Linkage
+Euclidean Distance 
+The Euclidean distance formula says:
+d = √[ (x2– x1)2 + (y2– y1)2]
+Python Model Building
+                      # 14-8-24
+Python Code for Kmean Clustering
+
+
+
+                       #16-08-24
+DBSCAN
+Density-Based Spatial Clustering of Applications with Noise
+1 Epsilon(radius of Circle)
+2 Minimum Sample
+3 Core Point
+4 Border Point 
+5 Noise Point
+                      #20-8-24
+Association Rule code 
+
+                      #21-08-24
+Recommendation
+                      #22-08-24
+Reduce no of dimensions
+Text and image data
+PCA(Principal Component Analysis)
+No of PCA = No of Column
+eigen Value 
+eigen Vector
+Varience within Column
+Covarience between columns
+Scree PLot inverted Elbow Curve between PCA1 PCA2
+
+
+
+https://setosa.io/ev/principal-component-analysis/
+                 #23-08-24 
+ Decision Tree 
+ C5.0 and Cart
+Main/Root Node -Decision Node- Leaf node 
+information Gain=Entropy(S1)-Entropy(S2)
+information Gain=Entropy(before)-Entropy(after)
+Entropy=summation-Pilog2 Pi
+Criteria =gini  CART
+Criteria=entropy C5.0
+
+                    26-08-24
+
+EDA 2
+Encoding
+Onehot Encoder 
+Label Encoder
+If the target column is categoric, we use the sklearn.LabelEncoder​ sort in A-Z  1column
+If the feature column is categoric, we use the sklearn.OneHotEncoder    Depends on no of features  in categoric column(n feature =n Column
+
+Isolation Forest for outlier Detection Unsurvised Learning  anamoaly Score
+PPS Score Supervised Learning Regression Classification Mean Absolute Error 
+
+                                27-08-24
+
+Feature Selection 
+RFE(Recursive Feature Elimination)-reduce Column/Feature
+More Accuracy
+Curse of Dimensionality 
+Less Time 
+low Computational Cost
+
+N +1 Model created
+
+
+X1 X2 X3 X4 Y   acc 90
+x1 X2 X3 Y   Acc 80
+xi X2 X4      Axc 60
+x2 X3 X4     Acc 70
+
+Tree Based Method 
+Entropy -Information Gain
+Gini 
+
+                         28-08-24
+Model Validation Technique
+Train  Text Split 
+20 test 80 train
+
+Kfold
+average of all fold 
+Leave one out (small dataset like till 1000records )
+
+0 or 100% accuracy 
+
+Grid Search CV K=5 
+                          29-08-24
+Ensemble Techniques
+Take multiple weak learner to make one strong learner
+
+Bagging   2 Homogenous weak Learner
+M1 M2 M3 same Algorithem Like Desicion Tree Regressor
+independent to each other
+Boosting 1 best Approach learn Sequentialy
+depends on  each other
+M1 M2 M3 same Algorithem Like Desicion Tree Regressor
+Homogenous weak Learner
+Stacking  3 
+Hetrogenious weak Learner 
+M1 M2 M3 All independent different learner
+Bagging
+Random Forest (multiple Decision Tree)
+n estimators -100 /150 -hyperpameter -no of desicion Tree depends on no of Column
+-- Base Algorithem is Desicion Tree
+--Random Forest is the most common Algorithem
+
+Bootstamp Aggregation (67 % ramdomly data selection for each model)
+Sampling without replacement delete after selection 
+Sampling with replacement    not deleting 
+Row Sampling 
+Feature Sampling
+Regresion -Average
+Classification 
+--no of feature for each decision tree =squareroot N 
+Where N is total no of Column 
+Decision Tree prone overfitting
+Randomforest Row &  feature sampling 
+No need to replace automatical replace with mode for Text and Mean for number
+
+Gradient Boosting
+-Used for Regression and Classification 
+-Sequential Model
+-Base model is Decision Tree
+-M1 M2 M3 Sequential Algorithm Mi is Average given to 2 -3.....
+-Residual/Error  is target Column for M2 
+                         # 30-08-24
+Boosting  Gradaboost and Xgboost
+                         # 02-09-24
+Regularization
+To overcome overfitting
+Increase accuracy of testing and reduce accuracy  
+1 Lasso(L1)-Least Absolute Shrikage and selection operators
+-overfitting
+-feature selection
+-MSE -mean squared Error m-Slope 
+convert less slope to o and drop that Column
+Alpha range 0-infinite
+MSE+alpha |m| 
+2 Ridge(L2) 
+MSE+alpha (m)2
+3 Elastic (L1 &L2)-More Errors
+-Overfitting and feature selection 
+-MSE+alpha |m| +alpha (m)2
+                                     
+                       #03-09-24
+Deep Learning  (Tenserflow Keras )
+AL -Mimic like  human Brain/Robot
+ML -Training Data-Prediction -Structured Data 
+DL- Mimic Human Brain- Unstructured Data 
+Supervised Learning 
+1 Temoral Lobe- Data Preprocessing  ANN-Artificial Neural Network
+2 Occipital Lobe -CNN(Convolutional Neural  Network)-Image /Video
+3 Frontal Lobe -RNN(Recurrent Neural Network)-Text Data -NLP Natural Language Processing
+4 Maxima Minima 
+Momentum 
+
+Types of activation functions(Fx)
+
+1 Sigmoid activation: A smooth, continuously differentiable function historically important in neural network development.
+2 Tanh (Hyperbolic Tangent) Activation: Defined as the hyperbolic tangent of the input.
+3 ReLU (Rectified Linear Unit) Activation: Outputs the input if it is positive, otherwise outputs zero.
+4 Softmax activation: Used for multi-class classification problems
+
+types of activation functions include:
+Sigmoid activation: A smooth, continuously differentiable function historically important in neural network development.(1,0)
+Tanh (Hyperbolic Tangent) Activation: Defined as the hyperbolic tangent of the input.(1,-1)
+ReLU (Rectified Linear Unit) Activation: Outputs the input if it is positive, otherwise outputs zero. not for negative-Hidden layer Relu Function is Used 
+
+Softmax activation: Used for multi-class classification problems (0,1,--) A B C D E
+Sigmoid and Tanh for binary
+Softmax and multiclass for probability
+
+gradient descent Method
+
+Batch gradient descent: Use all m examples in each iteration
+Stochastic gradient descent: Use 1 example in each iteration
+Mini-batch gradient descent: Use b examples in each iteration
+                     CNN(Classification)
+
+A Convolutional Neural Network (CNN) is a type of Deep Learning neural network architecture commonly used in Computer Vision.
+Convolutional Layers: 
+polling Layers
+Fully Connected Layers:
+
+                                   09-09-24
+Sampling 
+Upsampling      low high Month Day interpolution 
+Down Sampling  High Low Month Quarter Average 
+
+Time Series Forcasting -Future -Date 
+
+Forcasting
+1 Cross Sectional  -After Shuffeling Data model will not Change 
+2 Time Series  -After Shuffeling Data model will Change 
+
+Forcasting Steps
+1 Define Goal
+2 Data Collection
+3 Explore and Visualization
+4 Pre processing  
+5 Partition Train Test 
+6 Forcasting Models
+7 Evaluate & compare performance of Data
+8 Deployment
+
+Forcasting Components  
+Level -Average of Target Column
+Trend-patten of upword and downword Data 
+Seasonality -Change as per Season 
+Noise - error /Irregular /Noise in Data 
+aditive
+Yt=Level+Teand+Seanality+Noise 
+Multiplicative 
+Yt=Level*Teand*Seanality*Noise
+
+Chart 
+1Line Chart
+2 Histogram
+3 Heat Map
+4 Box plot 
+5 Lag - Previous Yt-1
+6 Lead -Next Yt+1
+7 ACF (Autocorrelation Function ) X- Lag y Auto Correlation 
+                     10-09-24
+Linear Y~t
+Exponential Log(Y)~t
+Quadratic Y~T+T2
+Aditive Seasonality Y~jan+...+Nov
+Quadrative Aditive Seasonality ~T+T2
++jan+...+Nov
+Multiplicative Seasonality 
+Y~t+jan+...+Nov
+ARIMA(1,1,0)
+
+ARIMA is an acronym for “autoregressive integrated moving average.” -Stationary Data 
+It's a model used in statistics and econometrics to measure events that happen over a period of time
+
+The parameters in an ARIMA model are defined as:
+
+p(0,1,2)
+
+The number of autoregressive terms, or the lag order. This represents the number of lag observations included in the model.
+
+d
+
+The number of nonseasonal differences needed for stationarity, or the degree of differencing.
+This denotes the number of times raw observations undergo differencing.
+
+q
+
+The number of lagged forecast errors in the prediction equation, or the order of moving average. 
+This indicates the size of the moving average window
+
+                                 11-09-24
+NLP Techniques
+NLP encompasses a wide array of techniques that aimed at enabling computers to process and understand human language. These tasks can be categorized into several broad areas, each addressing different aspects of language processing. Here are some of the key NLP techniques:
+
+1. Text Processing and Preprocessing In NLP
+Tokenization: Dividing text into smaller units, such as words or sentences.
+Stemming and Lemmatization: Reducing words to their base or root forms.
+Stopword Removal: Removing common words (like “and”, “the”, “is”) that may not carry significant meaning.
+Text Normalization: Standardizing text, including case normalization, removing punctuation, and correcting spelling errors.
+2. Syntax and Parsing In NLP
+Part-of-Speech (POS) Tagging: Assigning parts of speech to each word in a sentence (e.g., noun, verb, adjective).
+Dependency Parsing: Analyzing the grammatical structure of a sentence to identify relationships between words.
+Constituency Parsing: Breaking down a sentence into its constituent parts or phrases (e.g., noun phrases, verb phrases).
+3. Semantic Analysis
+Named Entity Recognition (NER): Identifying and classifying entities in text, such as names of people, organizations, locations, dates, etc.
+Word Sense Disambiguation (WSD): Determining which meaning of a word is used in a given context.
+Coreference Resolution: Identifying when different words refer to the same entity in a text (e.g., “he” refers to “John”).
+4. Information Extraction
+Entity Extraction: Identifying specific entities and their relationships within the text.
+Relation Extraction: Identifying and categorizing the relationships between entities in a text.
+5. Text Classification in NLP
+Sentiment Analysis: Determining the sentiment or emotional tone expressed in a text (e.g., positive, negative, neutral).
+Topic Modeling: Identifying topics or themes within a large collection of documents.
+Spam Detection: Classifying text as spam or not spam.
+6. Language Generation
+Machine Translation: Translating text from one language to another.
+Text Summarization: Producing a concise summary of a larger text.
+Text Generation: Automatically generating coherent and contextually relevant text.
+7. Speech Processing
+Speech Recognition: Converting spoken language into text.
+Text-to-Speech (TTS) Synthesis: Converting written text into spoken language.
+8. Question Answering
+Retrieval-Based QA: Finding and returning the most relevant text passage in response to a query.
+Generative QA: Generating an answer based on the information available in a text corpus.
+9. Dialogue Systems
+Chatbots and Virtual Assistants: Enabling systems to engage in conversations with users, providing responses and performing tasks based on user input.
+10. Sentiment and Emotion Analysis in NLP
+Emotion Detection: Identifying and categorizing emotions expressed in text.
+Opinion Mining: Analyzing opinions or reviews to understand public sentiment toward products, services, or topics.
+
+
+
+ 
+
+
+
+                                 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+          
+
+
+
+                                 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
